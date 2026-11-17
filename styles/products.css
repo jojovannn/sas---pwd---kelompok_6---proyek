@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+main {
+  flex: 1;
+}
+
+.header-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f4f6f8;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.products-section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.product-grid.single-item {
+  display: flex;
+  justify-content: center;
+}
+.product-grid.single-item .product-card {
+  width: 50%;
+}
