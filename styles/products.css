@@ -80,7 +80,7 @@ main {
   line-height: 1.5;
 }
 
-.sub-nav {
+.bottom-nav {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -90,15 +90,15 @@ main {
   border-radius: 8px;
   border: 1px solid #e0e0e0;
 }
-.sub-nav a {
+.bottom-nav a {
   text-decoration: none;
   color: #2c3e50;
   font-weight: bold;
   font-size: 0.9rem;
   transition: color 0.3s ease;
 }
-.sub-nav a:hover,
-.sub-nav a.active {
+.bottom-nav a:hover,
+.bottom-nav a.active {
   color: #e74c3c;
   border-bottom: 2px solid #e74c3c;
   padding-bottom: 3px;
