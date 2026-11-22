@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking - Gentleman Barbershop</title>
+    <link rel="stylesheet" href="../styles/booking.css">
+</head>
+<body>
+
+    <header>
+        <!-- Slot Logo -->
+        <img src="../assets/images/logo.jpeg" alt="Logo" width="80" height="80">
+        <h1>GENTLEMAN BARBERSHOP</h1>
+        <p>Gaya Rambut Rapi Setiap Hari</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="about.html">Tentang</a>
+        <a href="products.html">Produk</a>
+        <a href="pricing.html">Harga</a>
+        <a href="barbers.html">Barber</a>
+        <a href="booking.html">Booking</a>
+        <a href="gallery.html">Galeri</a>
+        <a href="contact.html">Kontak</a>
+    </nav>
+
+    <div class="container">
+        <h2>Jadwal Slot Waktu</h2>
+        <table>
+            <tr>
+                <th>Jam</th>
+                <th>Raka</th>
+                <th>Dimas</th>
+                <th>Bima</th>
+                <th>Andi</th>
+            </tr>
+            <tr>
+                <td>10.00 - 11.00</td>
+                <td class="tersedia">Tersedia</td>
+                <td class="penuh">Penuh</td>
+                <td class="tersedia">Tersedia</td>
+                <td class="tersedia">Tersedia</td>
+            </tr>
+            <tr>
+                <td>13.00 - 14.00</td>
+                <td class="penuh">Penuh</td>
+                <td class="tersedia">Tersedia</td>
+                <td class="tersedia">Tersedia</td>
+                <td class="penuh">Penuh</td>
+            </tr>
+            <tr>
+                <td>16.00 - 17.00</td>
+                <td class="tersedia">Tersedia</td>
+                <td class="tersedia">Tersedia</td>
+                <td class="penuh">Penuh</td>
+                <td class="tersedia">Tersedia</td>
+            </tr>
+        </table>
+
+        <h2>Form Booking</h2>
+        <form>
+            <label>Nama:</label><br>
+            <input type="text" name="nama"><br>
+
+            <label>No. WhatsApp:</label><br>
+            <input type="text" name="wa"><br>
+
+            <label>Pilih Barber:</label><br>
+            <select name="barber">
+                <option>Raka Pratama</option>
+                <option>Dimas Saputra</option>
+                <option>Bima Nugraha</option>
+                <option>Andi Wijaya</option>
+            </select><br>
+
+            <label>Pilih Paket:</label><br>
+            <select name="paket">
+                <option>Paket Reguler (Rp 35.000)</option>
+                <option>Paket Premium (Rp 65.000)</option>
+                <option>Paket Berdua (Rp 60.000)</option>
+            </select><br>
+
+            <label>Tanggal:</label><br>
+            <input type="date" name="tanggal"><br>
+
+            <label>Jam Slot:</label><br>
+            <select name="jam">
+                <option>10.00 - 11.00</option>
+                <option>13.00 - 14.00</option>
+                <option>16.00 - 17.00</option>
+            </select><br>
+
+            <label>Catatan:</label><br>
+            <textarea name="catatan" rows="3"></textarea><br>
+
+            <button type="submit">Booking Sekarang</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Gentleman Barbershop</p>
+    </footer>
+
+</body>
+</html>
