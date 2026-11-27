@@ -16,15 +16,6 @@ main {
   padding: 60px 20px 20px;
 }
 
-.location {
-  text-align: center;
-  margin-bottom: 30px;
-}
-.location a {
-  color: #d4af37;
-  text-decoration: none;
-  font-weight: bold;
-}
 .header-section h1 {
   color: #d4af37;
   font-family: "Georgia", serif;
