@@ -3,6 +3,9 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
 }
 main {
   flex: 1;
@@ -10,50 +13,175 @@ main {
 
 .header-section {
   text-align: center;
-  padding: 40px 20px;
-  background-color: #f4f6f8;
-  border-bottom: 1px solid #e0e0e0;
+  padding: 60px 20px 20px;
 }
+
+.header-section h1 {
+  color: #d4af37;
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-size: 3.5rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.section-desc {
+  color: #aaaaaa;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+.address {
+  color: #d4af37;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+.button-nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.button-nav a {
+  text-decoration: none;
+  color: #d4af37;
+  border: 2px solid #d4af37;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+.button-nav a:hover,
+.button-nav a.active {
+  background-color: #d4af37;
+  color: #1a1a1a;
+}
+
 .pricing-section {
-  padding: 40px 20px;
+  padding: 0 20px 40px;
   max-width: 900px;
   margin: 0 auto;
 }
-.pricing-section h1 {
-  text-align: center;
-  margin-bottom: 10px;
-  color: #2c3e50;
-}
-.section-desc {
-  text-align: center;
-  color: #666;
-  margin-bottom: 40px;
-}
-
 .pricing-table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 30px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  background-color: #222222;
+  border: 1px solid #d4af37;
 }
 .pricing-table caption {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 15px;
-  color: #2c3e50;
+  margin-bottom: 20px;
+  color: #d4af37;
+  font-family: "Georgia", serif;
 }
 .pricing-table th,
 .pricing-table td {
   padding: 15px;
   text-align: left;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #333;
 }
 .pricing-table th {
-  background-color: #2c3e50;
-  color: #ffffff;
-  font-weight: bold;
+  background-color: #121212;
+  color: #d4af37;
+  font-family: "Georgia", serif;
 }
 .pricing-table tbody tr:hover {
-  background-color: #f9f9f9;
+  background-color: #2a2a2a;
+  transition: background-color 0.3s;
+}
+
+.highlight-row td {
+  position: relative;
+  font-weight: bold;
+  color: #d4af37;
+}
+.badge-best {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: #d4af37;
+  color: #121212;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.booking-form-container {
+  margin-top: 50px;
+  background-color: #222222;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #444;
+}
+.booking-form-container h2 {
+  text-align: center;
+  color: #d4af37;
+  margin-bottom: 20px;
+  font-family: "Georgia", serif;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #d4af37;
+}
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #121212;
+  color: #ffffff;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #d4af37;
+  outline: none;
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #d4af37;
+  color: #121212;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn-submit:hover {
+  background-color: #ffffff;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #d4af37;
+  color: #121212;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+footer {
+  background-color: #121212;
+  color: #d4af37;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #333;
 }
