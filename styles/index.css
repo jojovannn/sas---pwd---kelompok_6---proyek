@@ -1,0 +1,267 @@
+   
+   @import url(/styles/global.css);
+    
+    .judulutama{
+        
+        font-family:'Times New Roman', Times, serif;
+        color:gold;
+        font-style: oblique;
+        font-size: 90px;
+        background-color: rgba(85, 85, 85, 0.295);
+        border-radius: 8px;
+        padding: 12px;
+        display: inline-block;
+        margin-top: 100px;
+        margin-bottom: 0;
+        transition: transform .25s ease;
+    }
+
+    .judulutama:hover{
+        transform: scale(1.025);
+    }
+
+    .about{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        display:block;
+        font-size: larger;
+        text-align: center;
+        text-decoration: none;
+        color: gold;
+        margin-top: 15px;
+        transition: 0.3s ease-in-out;
+        animation-name: slide-up;
+        background-color: rgba(85, 85, 85, 0.295);
+         border-radius: 8px;
+        padding: 10px;
+        width: fit-content;
+        margin: 15px auto;
+
+    }
+
+    .about:hover{
+        color: rgb(141, 119, 0);
+        
+    }
+
+
+    #links{
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        animation-name: slide-up;
+    }
+
+    #links a{
+        
+        color: gold;
+        text-decoration: none;
+        font-size: 20px;
+        display: inline-block;
+        padding: 10px 10px;
+        margin: 0 5px;
+        margin-top:30px;
+    }
+
+    .layanan {
+        background-color: black;
+        border-radius: 8px;
+        border: 2px solid goldenrod;
+        transition: 0.3s ease-in-out;
+    }
+
+    .pricing {
+        background-color: black;
+        border-radius: 8px;
+        border: 2px solid goldenrod;
+        transition: 0.3s ease-in-out;
+    }
+
+    .pricing:hover{
+        border: 2px solid rgb(100, 76, 14);
+    }
+
+    .layanan:hover{
+        border: 2px solid rgb(100, 76, 14);
+    }
+
+    .profil {
+        background-color: black;
+        border-radius: 8px;
+        border: 2px solid goldenrod;
+        transition: 0.3s ease-in-out;
+    }
+
+    .profil:hover{
+        border: 2px solid rgb(100, 76, 14);
+    }
+
+    .booking {
+        background-color: black;
+        border-radius: 8px;
+        border: 2px solid goldenrod;
+        transition: 0.3s ease-in-out;
+    }
+
+    .booking:hover{
+        border: 2px solid rgb(100, 76, 14);
+    }
+
+
+    .contact{
+        background-color: black;
+        border-radius: 8px;
+        border: 2px solid goldenrod;
+        transition: 0.3s ease-in-out;
+    }
+
+    .contact:hover{
+        border: 2px solid rgb(100, 76, 14);
+    }
+
+
+    .gallery{
+        background-color: black;
+        border-radius: 8px;
+        border: 2px solid goldenrod;
+        transition: 0.3s ease-in-out;
+    }
+
+
+    .gallery:hover{
+        border: 2px solid rgb(100, 76, 14);
+    }
+
+
+
+    img{
+            top: 1px;
+            left: 15px;
+            width: 150px;
+            height: auto;
+            position: absolute;
+            animation-name: slide-up;
+
+    }
+
+    .header{
+        background-image: url(/assets/images/about/barber4.jpg);
+        height: 400px;
+        background-size: cover;
+        background-position: center ;
+        padding-top: 10px;
+        text-align: center;
+        position: relative;
+    }
+
+    .location{
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        padding-top: 20px;
+        transition: transform .25s ease;
+    }
+
+    .location a{
+        text-decoration: none;
+        color: gold;
+    }
+
+    .location:hover{
+        transform: scale(1.025);
+    }
+
+
+    footer{
+        text-align: center;
+        color: gold;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    #links{
+        animation-name: slide-up;
+        animation-duration: 1.2s;
+        animation-timing-function: ease-out;
+        animation-delay: 0.9s;
+        animation-direction: normal;
+        animation-fill-mode: backwards;
+        animation-iteration-count: 1;
+    }
+
+
+    .about{
+        animation-name: slide-up;
+        animation-duration: 1.2s;
+        animation-timing-function: ease-out;
+        animation-delay: 0.2s;
+        animation-direction: normal;
+        animation-fill-mode: backwards;
+        animation-iteration-count: 1;
+    }
+
+    img{
+        animation-name: slide-up;
+        animation-duration: 1.2s;
+        animation-timing-function: ease-out;
+        animation-delay: 0.2s;
+        animation-direction: normal;
+        animation-fill-mode: backwards;
+        animation-iteration-count: 1;
+        transition: transform .25s ease;
+    }
+
+    img:hover{
+        transform: scale(1.1);
+    }
+
+
+    .location{
+        animation-name: slide-up;
+        animation-duration: 1.2s;
+        animation-timing-function: ease-out;
+        animation-delay: 0.7s;
+        animation-direction: normal;
+        animation-fill-mode: backwards;
+        animation-iteration-count: 1;
+    }
+
+    h1{
+        animation-name: slide-up;
+        animation-duration: 1.2s;
+        animation-timing-function: ease-out;
+        animation-delay: 0.3s;
+        animation-direction: normal;
+        animation-fill-mode: backwards;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes slide-up{
+    0% {
+        transform: translateY(60px);
+        opacity: 0 ;
+    }
+
+    25% {
+        transform: translateY(40px);
+        opacity: 0.25;
+    }
+
+    50% {
+        transform: translateY(20px);
+        opacity: 0.5;
+    }
+
+    75% {
+        transform: translateY(10px);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+
+    
+}
