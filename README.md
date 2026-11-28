@@ -71,6 +71,6 @@ Nhelvin : Bagian sulit bagi saya adalah memahami cara kerja untuk position pada 
 Dari sini saya mempelajari bahwa elemen HTML seperti article dan table dan pengelompokan Css penting agar kode mudah di kelola dan di baca
 Jovan:  Bagian yang sulit bagi saya adalah menentukan elemen ini memakai position apa dan sebagainya. Sebagai contoh, di index.html dan di contact.html yang terdapat logo di pojok kiri atas, merupakan hasil saya mempelajari ulang tentang berbagai jenis position di CSS.
 Owen: Bagian yang sulit bagi saya adalah menentukan elemen ini memakai position apa dan sebagainya. selain itu, butuh ketelitian ketika menyusun kata kata di bagian HTML dan juga di CSS agar rapi.Kemudian saya juga dapat belajar tentang kerapian dan juga ke estetika isi di website.
-Dustin: Bagian yang sulit dari projek ini mnurut saya.yaitu membuat bagian css yang haruse sesuai warna per bagian dan font yang cocok dengan tema dari projek ini. kemudian jug abagian yg menurut saya sulit adalah mengetik readme yang sangat panjang dan adanya miskomuikasi dalam mengetik readme.
+Dustin: Bagian yang sulit dari projek ini mnurut saya.yaitu membuat bagian css yang haruse sesuai warna per bagian dan font yang cocok dengan tema dari projek ini. kemudian juga bagian yg menurut saya sulit adalah mengetik readme yang sangat panjang dan adanya miskomuikasi dalam mengetik readme.
 =======
 ** SEKIAN **

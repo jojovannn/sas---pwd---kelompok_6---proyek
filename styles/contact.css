@@ -89,6 +89,14 @@
       color: rgb(106, 90, 0);
     }
 
+    .products{
+      transition: 0.3s ease-in-out;
+    }
+
+    .products:hover{
+      color: rgb(106, 90, 0);
+    }
+
     .layanan{
       transition: 0.3s ease-in-out;
     }
@@ -106,6 +114,14 @@
 
     .booking:hover{
       color: rgb(255, 255, 255);
+    }
+
+    .gallery{
+      transition: 0.3s ease-in-out;
+    }
+
+    .gallery:hover{
+      color: rgb(106, 90, 0);
     }
 
     #contact-page{
@@ -252,8 +268,18 @@
         animation-fill-mode: backwards;
         animation-iteration-count: 1;
     }
-
+    
     .profile{
+      animation-name: slide-up;
+        animation-duration: 1.2s;
+        animation-timing-function: ease-out;
+        animation-delay: 0.7s;
+        animation-direction: normal;
+        animation-fill-mode: backwards;
+        animation-iteration-count: 1;
+    }
+
+    .products{
       animation-name: slide-up;
         animation-duration: 1.2s;
         animation-timing-function: ease-out;
@@ -262,8 +288,18 @@
         animation-fill-mode: backwards;
         animation-iteration-count: 1;
     }
-
-    .layanan{
+      
+    .booking{
+      animation-name: slide-up;
+        animation-duration: 1.2s;
+        animation-timing-function: ease-out;
+        animation-delay: 0.9s;
+        animation-direction: normal;
+        animation-fill-mode: backwards;
+        animation-iteration-count: 1;
+    }
+    
+    .gallery{
       animation-name: slide-up;
         animation-duration: 1.2s;
         animation-timing-function: ease-out;
@@ -273,16 +309,9 @@
         animation-iteration-count: 1;
     }
 
-   .booking{
-      animation-name: slide-up;
-        animation-duration: 1.2s;
-        animation-timing-function: ease-out;
-        animation-delay: 0.7s;
-        animation-direction: normal;
-        animation-fill-mode: backwards;
-        animation-iteration-count: 1;
-    }
-    
+
+
+   
     .contact-form{
       animation-name: slide-up;
         animation-duration: 1.2s;

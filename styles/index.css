@@ -61,13 +61,17 @@
         margin-top:30px;
     }
 
-    .layanan {
+    .products {
         background-color: black;
         border-radius: 8px;
         border: 2px solid goldenrod;
         transition: 0.3s ease-in-out;
     }
 
+    .products:hover{
+        border: 2px solid rgb(100, 76, 14);
+    }
+    
     .pricing {
         background-color: black;
         border-radius: 8px;
@@ -113,6 +117,17 @@
         transition: 0.3s ease-in-out;
     }
 
+    .pricing{
+        background-color: black;
+        border-radius: 8px;
+        border: 2px solid goldenrod;
+        transition: 0.3s ease-in-out;
+    }
+
+    .pricing:hover{
+        border: 2px solid rgb(100, 76, 14);
+    }
+    
     .contact:hover{
         border: 2px solid rgb(100, 76, 14);
     }
