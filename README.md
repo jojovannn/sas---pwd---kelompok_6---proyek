@@ -53,7 +53,11 @@ project-root/
 
 ### Daftar Sumber Foto
 * **Foto Profil Tim Barber & Pendiri**: Menggunakan dokumentasi foto diri masing-masing anggota kelompok.
-* **Logo Gloss Barbershop**: Menggunakan aset gambar yang dibuat (*generate*) menggunakan bantuan teknologi AI.
+* **Logo Gloss Barbershop**: Menggunakan Aset gambar dari gabungan Elemen canva.
+* **Gambar lainnya: 
+https://www.istockphoto.com/id/foto/sikat-cukur-di-barbershop-gm516230773-48664290?phrase=barber%20shop%20shave%20brush%20black%20and%20white&searchscope=image%2Cfilm
+
+https://www.barberiaindonesia.com/barbershops--grooming-parlours.html
 
 ### Kendala Progress & Cara Mengatasinya
 1. **Perbedaan selera desain antar anggota**: Awalnya kami sempat bingung menentukan perpaduan warna yang pas dan kelihatan mahal, akhirnya kami sepakat mencari referensi barbershop modern dan mengunci 3 warna utama (Hitam, Emas, dan Putih).
@@ -62,3 +66,9 @@ project-root/
 
 ### Refleksi Kelompok
 Melalui pengerjaan proyek website Gloss Barbershop ini, kami belajar banyak tentang cara kerja sama tim yang kompak dalam menyusun struktur web dari nol menggunakan HTML dan CSS. Kami juga jadi lebih paham bahwa ketelitian dalam mengatur folder dan kode sangat berpengaruh agar tampilan website bisa berjalan rapi sesuai konsep awal.
+
+Nhelvin : Bagian sulit bagi saya adalah memahami cara kerja untuk position pada badge agar tidak merusak tatak letak sekitar nya. selain itu, butuh ketelitian ketika menyusun form reservasi. 
+Dari sini saya mempelajari bahwa elemen HTML seperti article dan table dan pengelompokan Css penting agar kode mudah di kelola dan di baca
+Jovan:  Bagian yang sulit bagi saya adalah menentukan elemen ini memakai position apa dan sebagainya. Sebagai contoh, di index.html dan di contact.html yang terdapat logo di pojok kiri atas, merupakan hasil saya mempelajari ulang tentang berbagai jenis position di CSS.
+Owen: Bagian yang sulit bagi saya adalah menentukan elemen ini memakai position apa dan sebagainya. selain itu, butuh ketelitian ketika menyusun kata kata di bagian HTML dan juga di CSS agar rapi.Kemudian saya juga dapat belajar tentang kerapian dan juga ke estetika isi di website.
+Dustin: Bagian yang sulit dari projek ini mnurut saya.yaitu membuat bagian css yang haruse sesuai warna per bagian dan font yang cocok dengan tema dari projek ini. kemudian jug abagian yg menurut saya sulit adalah mengetik readme yang sangat panjang dan adanya miskomuikasi dalam mengetik readme.
