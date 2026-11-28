@@ -62,3 +62,4 @@ project-root/
 
 ### Refleksi Kelompok
 Melalui pengerjaan proyek website Gloss Barbershop ini, kami belajar banyak tentang cara kerja sama tim yang kompak dalam menyusun struktur web dari nol menggunakan HTML dan CSS. Kami juga jadi lebih paham bahwa ketelitian dalam mengatur folder dan kode sangat berpengaruh agar tampilan website bisa berjalan rapi sesuai konsep awal.
+** SEKIAN **
