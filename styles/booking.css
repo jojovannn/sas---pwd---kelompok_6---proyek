@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+    background-color: #f8f5f0;
+    color: #111111;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #111111;
+    color: #f8f5f0;
+    text-align: center;
+    padding: 15px;
+}
+
+header h1 {
+    color: #c88a2b;
+}
+
+nav {
+    background-color: #c88a2b;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #111111;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid #111111;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+}
+
+th {
+    background-color: #111111;
+    color: #f8f5f0;
+}
+
+.tersedia { color: green; }
+.penuh { color: red; }
+
+form {
+    background-color: white;
+    border: 1px solid #111111;
+    padding: 15px;
+}
+
+input, select, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: #c88a2b;
+    color: #111111;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+}
