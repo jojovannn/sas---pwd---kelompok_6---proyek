@@ -1,7 +1,7 @@
    
    @import url(/styles/global.css);
     
-    .judulUtama{
+    .judulutama{
         
         font-family:'Times New Roman', Times, serif;
         color:gold;
@@ -16,7 +16,7 @@
         transition: transform .25s ease;
     }
 
-    .judulUtama:hover{
+    .judulutama:hover{
         transform: scale(1.025);
     }
 
@@ -69,6 +69,21 @@
     }
 
     .products:hover{
+        border: 2px solid rgb(100, 76, 14);
+    }
+    
+    .pricing {
+        background-color: black;
+        border-radius: 8px;
+        border: 2px solid goldenrod;
+        transition: 0.3s ease-in-out;
+    }
+
+    .pricing:hover{
+        border: 2px solid rgb(100, 76, 14);
+    }
+
+    .layanan:hover{
         border: 2px solid rgb(100, 76, 14);
     }
 
